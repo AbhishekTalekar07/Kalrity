@@ -1,0 +1,14 @@
+<template>
+    
+        <lightning-card title="Select Contact">
+            <lightning-combobox
+                label="Contacts"
+                value={selectedContactId}
+                options={contactOptions}
+                onchange={handleContacts}
+                placeholder="Select a contact">
+            </lightning-combobox>
+        </lightning-card>
+  
+    
+</template>
